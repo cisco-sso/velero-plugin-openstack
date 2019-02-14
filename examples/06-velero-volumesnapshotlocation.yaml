@@ -18,4 +18,4 @@ metadata:
   name: openstack-default
   namespace: velero
 spec:
-  provider: cinder
+  provider: openstack

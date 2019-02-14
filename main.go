@@ -8,7 +8,7 @@ import (
 
 func main() {
 	arkplugin.NewServer(arkplugin.NewLogger()).
-		RegisterBlockStore("cinder", cinder.NewBlockStore).
-		RegisterObjectStore("swift", swift.NewObjectStore).
+		RegisterBlockStore("openstack", cinder.NewBlockStore).
+		RegisterObjectStore("openstack", swift.NewObjectStore).
 		Serve()
 }

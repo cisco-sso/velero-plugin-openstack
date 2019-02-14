@@ -18,7 +18,7 @@ metadata:
   name: default
   namespace: velero
 spec:
-  provider: swift
+  provider: openstack
   objectStorage:
     # Be sure to manually create this bucket
     bucket: example

@@ -20,7 +20,7 @@ metadata:
   name: default
   namespace: heptio-ark
 spec:
-  provider: swift
+  provider: openstack
   objectStorage:
     # Be sure to manually create this bucket
     bucket: example

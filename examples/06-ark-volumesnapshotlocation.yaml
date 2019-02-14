@@ -20,4 +20,4 @@ metadata:
   name: openstack-default
   namespace: heptio-ark
 spec:
-  provider: cinder
+  provider: openstack
